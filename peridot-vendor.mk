@@ -287,135 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/xmi_slmt_4x_1080p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_1080p.dlc \
     vendor/xiaomi/peridot/proprietary/odm/etc/camera/xmi_slmt_4x_720p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_720p.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/cct_pcc.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLut7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/ClstcLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/PicHDRLchIn.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/PicHDRLchIn.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/clstc_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/clstc_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/clstc_igc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/clstc/clstc_igc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_10.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_11.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_12.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_13.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_14.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_15.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_16.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_17.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_18.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_19.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_20.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_8.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/miLut_9.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_36_0f_0b_dsc_vid/mi_gc_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/cct_pcc.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLut7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/ClstcLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/PicHDRLchIn.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/PicHDRLchIn.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/clstc_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/clstc_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/clstc_igc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/clstc/clstc_igc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_10.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_11.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_12.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_13.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_14.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_15.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_16.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_17.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_18.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_19.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_20.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_8.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/miLut_9.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/cct_pcc.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLut7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/ClstcLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/PicHDRLchIn.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/PicHDRLchIn.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/clstc_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/clstc_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/clstc_igc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/clstc/clstc_igc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLutInfo.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_10.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_11.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_12.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_13.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_14.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_15.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_16.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_17.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_18.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_19.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_20.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_4.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_5.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_6.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_7.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_8.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/miLut_9.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_2.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_0a_0c_dsc_vid/mi_gc_3.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_2x_y1280x720.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_2x_y1280x720.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_2x_y540x960.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_2x_y540x960.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_2x_y720x1280.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_2x_y720x1280.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_2x_y960x540.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_2x_y960x540.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_3x_y368x640.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_3x_y368x640.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/8635_sr_3x_y640x368.dlc:$(TARGET_COPY_OUT_ODM)/etc/display/8635_sr_3x_y640x368.dlc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/LUT.txt:$(TARGET_COPY_OUT_ODM)/etc/display/LUT.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/LUT0.txt:$(TARGET_COPY_OUT_ODM)/etc/display/LUT0.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/LUT1.txt:$(TARGET_COPY_OUT_ODM)/etc/display/LUT1.txt \
-    vendor/xiaomi/peridot/proprietary/odm/etc/display/LUT2.txt:$(TARGET_COPY_OUT_ODM)/etc/display/LUT2.txt \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json \
@@ -423,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
-    vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml \
@@ -699,19 +569,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
-    vendor/xiaomi/peridot/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
-    vendor/xiaomi/peridot/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
-    vendor/xiaomi/peridot/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
-    vendor/xiaomi/peridot/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__11.0.1.6_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__11.0.1.6_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
@@ -723,7 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/camera/cameraopt_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_vendor.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -782,12 +647,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/eva/itof/tuning_params_sensor_type_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/eva/itof/tuning_params_sensor_type_1.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-qti.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
@@ -825,7 +688,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service_peridot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service_peridot.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc \
@@ -837,9 +699,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -863,17 +723,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/chre_dynamic_sensors.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
     vendor/xiaomi/peridot/proprietary/vendor/firmware/gen70900_aqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_aqe.fw \
@@ -908,7 +763,6 @@ PRODUCT_PACKAGES += \
     audio.bluetooth_qti.default \
     audio.primary.pineapple \
     com.dsi.ant@1.0-impl \
-    gralloc.default \
     gyro_fusion_interface \
     libEseUtils \
     libqtigatekeeper \
@@ -922,7 +776,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.soter-impl \
-    vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
     lib-imscommon \
     lib-imsdcservice \
@@ -942,7 +795,6 @@ PRODUCT_PACKAGES += \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
-    libFileMux_proprietary \
     libFlacSwDec \
     libGPMTEEC_vendor \
     libGPQeSE \
@@ -983,6 +835,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbtnv \
+    libcacertclient \
     libcameraopt \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
@@ -1005,19 +858,13 @@ PRODUCT_PACKAGES += \
     libcustomva_intf \
     libcv_common \
     libdataitems \
-    libdfintf \
     libdiag \
     libdiagjni \
     libdigital-dimming \
     libdisp-aba \
-    libdisplayconfig.qti \
-    libdisplaydebug \
-    libdisplayfeature \
-    libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
-    libdpp_manager \
     libdpps \
     libdrmfs \
     libdrmtime \
@@ -1031,15 +878,9 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libfastcvdsp_stub \
     libfastcvopt \
-    libfeutils \
-    libfilefinder \
     libgame_enhance \
     libgnsspps \
     libgpt \
-    libgpu_tonemapper \
-    libgralloc.qti \
-    libgralloccore \
-    libgrallocutils \
     libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
@@ -1049,7 +890,6 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhdrvivid \
-    libhistogram \
     libhotword_intf \
     libidl \
     libintervmipc \
@@ -1096,10 +936,8 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libmemutils \
     libmialgo \
-    libmilut \
     libminkdescriptor \
     libminksocket_vendor \
-    libmiracast \
     libmis6 \
     libmisfpsop \
     libmisight \
@@ -1108,9 +946,6 @@ PRODUCT_PACKAGES += \
     libmispowerop \
     libmisr \
     libmm-hdcpmgr \
-    libmmosal_vendor \
-    libmmrtpdecoder_vendor \
-    libmmrtpencoder_vendor \
     libnicm \
     libnicm_dsi \
     libnicm_interface \
@@ -1164,7 +999,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_hooks \
     libqcodec2_imgtxrfilter \
     libqcodec2_mockfilter \
-    libqcodec2_mocklutfilter \
     libqcodec2_platform \
     libqcodec2_srfilter \
     libqcodec2_streaminteg_filter \
@@ -1186,14 +1020,12 @@ PRODUCT_PACKAGES += \
     libqcrildataaidl \
     libqcrildatactl \
     libqcrildataqos \
-    libqdMetaData \
     libqdcm-algo \
     libqdcm-json-mode-parser \
     libqdcm-mode-parser \
     libqdi \
     libqdp \
     libqdpr \
-    libqdutils \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -1209,7 +1041,6 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqrtrclient \
     libqseed3 \
-    libqservice \
     libqsh \
     libqshcamera \
     libqsocket \
@@ -1232,14 +1063,10 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
-    libsdmcore \
-    libsdmdal \
     libsdmextension \
-    libsdmutils \
     libsdsprpc \
     libsensor_calibration \
     libsensorcal \
@@ -1296,26 +1123,6 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvppimmotion \
     libvpplibrary \
-    libwfdcodecv4l2_proprietary \
-    libwfdcommonutils_proprietary \
-    libwfdconfigutils_proprietary \
-    libwfddisplayconfig_vendor \
-    libwfdhdcpcp \
-    libwfdhdcpservice_proprietary \
-    libwfdmminterface_proprietary \
-    libwfdmmservice_proprietary \
-    libwfdmmsrc_proprietary \
-    libwfdmodulehdcpsession \
-    libwfdrtsp_vendor \
-    libwfdsessionmodule \
-    libwfdsourcesession_proprietary \
-    libwfdsourcesm_proprietary \
-    libwfduibcinterface_vendor \
-    libwfduibcsink_vendor \
-    libwfduibcsinkinterface_vendor \
-    libwfduibcsrc_vendor \
-    libwfduibcsrcinterface_vendor \
-    libwfdutils_proprietary \
     libwifiobserver \
     libwms \
     libwqe \
@@ -1373,12 +1180,6 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     libasphere \
     libquasar \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.color@1.4 \
-    vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
@@ -1434,7 +1235,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qconfig-V1-ndk \
     vendor.qti.hardware.qconfig-V3-ndk \
     vendor.qti.hardware.qconfig-V5-ndk \
-    vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
@@ -1481,15 +1281,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_server-V1-ndk \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.sensorscalibrate-V1-ndk \
-    vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter-V1-ndk \
     vendor.qti.hardware.vpp-V1-ndk \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
-    vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.hardware.wigig.netperftuner@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
@@ -1521,15 +1318,11 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aon-V1-ndk \
     vendor.xiaomi.hardware.camera.synthetic-V1-ndk \
     vendor.xiaomi.hardware.camera.synthetic-impl \
-    vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
-    vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hardware.quickcamera-V1-ndk \
     vendor.xiaomi.hardware.seccam-V1-ndk \
     vendor.xiaomi.sensor.camera-V1-ndk \
-    vendor.xiaomi.sensor.citsensorservice-V1-ndk \
-    xiaomi.system.hypsys.common-V1-ndk \
     vendor_lib_rfsa_adsp_chre_qsh_shim_so \
     vendor_lib_rfsa_adsp_libDspIOProxy_skel_so \
     vendor_lib_rfsa_adsp_libSnpeHtpV73Skel_so \
@@ -1544,31 +1337,10 @@ PRODUCT_PACKAGES += \
     libdiag_system \
     libimscamera_jni \
     libimsmedia_jni \
-    libmmosal \
-    libmmparser_lite \
-    libmmrtpdecoder \
-    libmmrtpencoder \
     libqcc \
     libqcc_file_agent_sys \
     libqccdme \
     libqccfileservice \
-    libwfdavenhancements \
-    libwfdclient \
-    libwfdcommonutils \
-    libwfdconfigutils \
-    libwfddisplayconfig \
-    libwfdmminterface \
-    libwfdmmsink \
-    libwfdmmsrc_system \
-    libwfdnative \
-    libwfdrtsp \
-    libwfdservice \
-    libwfdsinksm \
-    libwfduibcinterface \
-    libwfduibcsink \
-    libwfduibcsinkinterface \
-    libwfduibcsrc \
-    libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
@@ -1577,13 +1349,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    anc.hal \
     com.qti.actuator.peridot_aac_imx882_gt9764ber_wide_i_actuator \
     com.qti.actuator.peridot_ofilm_imx882_aw86016csr_wide_ii_actuator \
     com.qti.actuator.peridot_ofilm_imx882_gt9764ber_wide_iii_actuator \
@@ -1771,16 +1540,13 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.qti.chi.offline \
     com.qti.chi.override \
-    displayfeature.default \
     fingerprint.goodix_fod.default \
-    fingerprint.jiiov.default \
     libAF \
     libAncHumanVideoBokehV4 \
     libDISAlgos \
     libHISCppAlgos \
     libIMTCppAlgos \
     libITT \
-    libMiDispDevManager \
     libMiMotion \
     libMiPhotoFilter \
     libMiStereoFactoryCalibAnalyzeBin_qual \
@@ -1821,7 +1587,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV75Stub \
     libTrueSight \
     libXMFaceFocus \
-    libadaptivehdr \
     libaidenoiser \
     libaidenoiserv2 \
     libanc_edof_checker \
@@ -1867,8 +1632,6 @@ PRODUCT_PACKAGES += \
     libceres \
     libchifeature2 \
     libchilog \
-    libclient2slpi.notifier \
-    libcolortempmode \
     libcom.qti.chinodeutils \
     libcom.xiaomi.attribute \
     libcom.xiaomi.debug \
@@ -1883,21 +1646,13 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libcrussp \
     libdeflicker \
-    libdisplaycount \
-    libdisplaylog \
-    libdither \
     libecoengine \
     libellv \
-    libeyecare \
     libfastmessage \
-    libflatmode \
-    libfpsmonitor \
     libfsalgocal \
     libgf_hal \
     libhdr10plus \
-    libhdr_stub \
     libhis_face_tracking \
-    libhistprocess \
     libhme \
     libhta_hexagon_runtime_snpe \
     libiccprofile \
@@ -1910,13 +1665,7 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \
-    libmi-stc-HW-modulate \
-    libmiBrightness \
-    libmiClstc \
-    libmiSensorCtrl \
     libmiStereoCalibLib_qual \
-    libmiXmlParser \
-    libmi_dspp \
     libmiai_deblur \
     libmiaio_aio_seg \
     libmialgo_ai_vision \
@@ -1932,7 +1681,6 @@ PRODUCT_PACKAGES += \
     libmialgoenginecustom \
     libmibokeh_845_video \
     libmicamera_adapter \
-    libmieventnodewatch \
     libminikin.xiaomi \
     libmiocr \
     libmiphone_capture_bokeh \
@@ -1960,7 +1708,6 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
-    libpaperMode \
     libportrait_repair_qnn \
     libqll \
     libqll10 \
@@ -1971,19 +1718,14 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librendercore \
     librfs_warp \
-    librhytheyecare \
     librmsclib1 \
-    libsdr2hdr \
     libsfeShiftExtrapolation \
     libshadowhook \
     libsnpe_config \
-    libsre \
     libswregistrationalgo \
     libtfestriping \
-    libtruetone \
     libubifocus \
     libvideoml \
-    libvideomode \
     libvoipspacespeech \
     libwa_widelens_undistort \
     libwrapper_dlengine \
@@ -2043,10 +1785,8 @@ PRODUCT_PACKAGES += \
     QCC \
     QtiTelephonyService \
     QtiTelephony \
-    WfdService \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     androidx.camera.extensions.impl \
     uimgbalibrary \
     uimgbamanagerlibrary \
@@ -2070,7 +1810,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     ImsRtpService-aidl.xml \
-    android.hardware.drm_wfdhdcp-service.xml \
     android.hardware.radio.config.xml \
     android.hardware.radio.data.xml \
     android.hardware.radio.messaging.xml \
@@ -2100,7 +1839,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
-    vendor.qti.hardware.display.composer-service_peridot.xml \
     vendor.qti.hardware.qconfig-service.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
@@ -2113,11 +1851,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate.xml \
     vendor.qti.hardware.soter-service.xml \
     vendor.qti.hardware.vpp-service.xml \
-    vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.qti.ims.factoryaidlservice.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
-    vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.hardware.quickcamera.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
@@ -2125,7 +1861,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider.xml \
     vendor.xiaomi.camera.aon-impl.xml \
     vendor.xiaomi.hardware.aidlbgservice-service.xml \
-    vendor.xiaomi.sensor.citsensorservice.aidl.xml \
     ATFWD-daemon \
     KmInstallKeybox \
     adpl \
@@ -2135,7 +1870,6 @@ PRODUCT_PACKAGES += \
     cnd \
     cnss-daemon \
     diag-router \
-    displayfeature \
     dpmQmiMgr \
     dspservice \
     edgnss-daemon \
@@ -2152,13 +1886,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.color-service \
-    vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.soter-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.xiaomi.hardware.displayfeature_aidl-service \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
@@ -2184,7 +1916,6 @@ PRODUCT_PACKAGES += \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
-    qseecom_sample_client \
     qseecomd \
     qti \
     qwes_cli \
@@ -2205,14 +1936,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal-service \
     vendor_modprobe \
     vppservice \
-    wfdhdcphalservice \
-    wfdvndservice \
-    wifidisplayhalservice \
     xtra-daemon \
     qccsyshal@1.2-service \
-    wfdservice64 \
     vendor.qti.camera.provider-service_64 \
-    vendor.xiaomi.sensor.citsensorservice.aidl \
     mlipayd
 
 PRODUCT_PACKAGES += \
@@ -2227,10 +1953,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_rfs_dsp_libqsegnetengine_dsp_skel_so \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
-    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
